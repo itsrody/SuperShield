@@ -1,5 +1,5 @@
 ! Title: ⚡️ SuperBlock
-! Version: 1.0
+! Version: 1.1
 ! Description: My custom annoyances blocking list optimized to fully support uBlock Origin syntax.
 ! Maintainer: Murtaza Salih
 ! Expires: 7 days
@@ -17,7 +17,7 @@
 ! 5TV
 ~5tv##.menu-item-129997, .menu-item-106263, #menu-item-28656, .btn-login, .admin-left-text, .ft
 ~5tv###widget_list_movies_series-9, #widget_list_movies_series-8, #widget_list_movies_series-2, .widget_list_episodes
-~5tv###fav-tv, .dfxa, .comments-area, .episodes.section
+~5tv###fav-tv, .dfxa, .comments-area
 ~rtcoi##server--title, .header-footer-group.has-text-align-center.entry-header, .entry-content, .category-2.hentry.format-standard.status-publish.type-post.post, #site-footer
 
 ! HD Today 
