@@ -1,31 +1,29 @@
-! Title: 🛡️ SuperShield
+! Title: ⚡️ SuperBlock
 ! Version: 1.0
-! Description: My custom annoyances blocking list optimized to fully support Brave browser shield syntax.
+! Description: My custom annoyances blocking list optimized to fully support uBlock Origin syntax.
 ! Maintainer: Murtaza Salih
 ! Expires: 7 days
 ! Homepage: https://github.com/itsrody/SuperShield
 
-! FaselHD (Changeable TLDs)
-faselhdx.*##div:has(a[href*="utm_medium=banner"])
-faselhdx.*###lastnews, .promoLink, .social, .accBtn, #footer, .blockMovieMeta, .slideMeta, #pr
-faselhdx.*##.alert, .social-block, .singleBtns, .singleStar, .shortLink, .downloadLinks, .Teamwork, .ralatedMovies, .justify-content-center.row, .col-12:nth-of-type(3), #scroll-to-top, .seasonMeta
+! FaselHD
+~fasel##div:has(a[href*="utm_medium=banner"])
+~fasel###lastnews, .promoLink,.social, .accBtn, #footer, .blockMovieMeta, .slideMeta, #pr
+~fasel##.alert, .social-block, .singleBtns, .singleStar, .shortLink, .downloadLinks, .Teamwork, .ralatedMovies, .justify-content-center.row, .col-12:nth-of-type(3), #scroll-to-top, .seasonMeta
 
-! WeCima (Changeable TLDs)
-wecima.*##.productionslistbutton, .LoginButton, .menu-item-home, #menu-item-1253822, #menu-item-1260202, .InnerButton, .GotoTop, .site-footer
-wecima.*##.singlecontainerleft, .elshaikh-breadcrumbs, .WecimaonSocialnetwork, .Download--Wecima--Single, .singlerelated
+! WeCima
+~wecima##productionslistbutton, .LoginButton, .menu-item-home, #menu-item-1253822, #menu-item-1260202, .InnerButton, .GotoTop, .site-footer
+~wecima##singlecontainerleft, .elshaikh-breadcrumbs, .WecimaonSocialnetwork, .Download--Wecima--Single, singlerelated
 
-! 5TV (Changeable TLDs)
-5tv.*##.menu-item-129997, .menu-item-106263, #menu-item-28656, .btn-login, .admin-left-text, .ft
-5tv.*###widget_list_movies_series-9, #widget_list_movies_series-8, #widget_list_movies_series-2, .widget_list_episodes
-5tv.*###fav-tv, .dfxa, .comments-area, .episodes.section
+! 5TV
+~5tv##.menu-item-129997, .menu-item-106263, #menu-item-28656, .btn-login, .admin-left-text, .ft
+~5tv###widget_list_movies_series-9, #widget_list_movies_series-8, #widget_list_movies_series-2, .widget_list_episodes
+~5tv###fav-tv, .dfxa, .comments-area, .episodes.section
+~rtcoi##server--title, .header-footer-group.has-text-align-center.entry-header, .entry-content, .category-2.hentry.format-standard.status-publish.type-post.post, #site-footer
 
-! rtcoi (Changeable TLDs)
-rtcoi.*##.server--title, .header-footer-group.has-text-align-center.entry-header, .entry-content, .category-2.hentry.format-standard.status-publish.type-post.post, #site-footer
+! HD Today 
+~hdtoday###logo, .mb-5.mw-body, .mb-5.text-center.mw-buttons, #xfooter, #xfooter-about, .mwh-logo, #xlogo, li.nav-item:nth-of-type(7), #user-slot
+~hdtoday###footer, .section-id-01.block_area_home.block_area, .section-id-02.block_area_home.block_area:nth-of-type(4)
+~hdtoday##.block_area_category.block_area, .mb-3.detail-tags, .server-notice, .block-rating, .btn-favorite, .dp-i-stats, .breadcrumb,.alert, watching_player-control
 
-! HD Today (Changeable TLDs)
-hdtoday.*###logo, .mb-5.mw-body, .mb-5.text-center.mw-buttons, #xfooter, #xfooter-about, .mwh-logo, #xlogo, li.nav-item:nth-of-type(7), #user-slot
-hdtoday.*###footer, .section-id-01.block_area_home.block_area, .section-id-02.block_area_home.block_area:nth-of-type(4)
-hdtoday.*##.block_area_category.block_area, .mb-3.detail-tags, .server-notice, .block-rating, .btn-favorite, .dp-i-stats, .breadcrumb, .alert, .watching_player-control
-
-! CEE (Changeable TLDs)
-cee.*##.cinemana-collections, .pwa-modal-container
+! CEE 
+~cee##cinemana-collections, .pwa-modal-container
